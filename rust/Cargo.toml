@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Francesco Cogno <francesco.cogno@outlook.com>"]
 
 [dependencies]
-iron="*"
+iron="0.4.0"
 rustc-serialize="0.3"
-hyper="*"
-clippy = "*"
+hyper="0.9.10"
+clippy = "0.0.84"
