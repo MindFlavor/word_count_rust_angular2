@@ -1,0 +1,12 @@
+{
+  "name": "word_cloud_ts",
+  "dependencies": {},
+  "globalDependencies": {
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160619023404",
+    "core-js": "registry:dt/core-js#0.0.0+20160725163759",
+    "reflect-metadata": "registry:dt/reflect-metadata#0.0.0+20160630155503",
+    "systemjs": "registry:dt/systemjs#0.19.29+20160702105636",
+    "wordcloud": "registry:dt/wordcloud#0.0.0+20160127105625",
+    "zone.js": "registry:dt/zone.js#0.0.0+20160316155526"
+  }
+}

@@ -1,0 +1,10 @@
+[package]
+name = "word_count"
+version = "0.1.0"
+authors = ["Francesco Cogno <francesco.cogno@outlook.com>"]
+
+[dependencies]
+iron="*"
+rustc-serialize="0.3"
+hyper="*"
+clippy = "*"
