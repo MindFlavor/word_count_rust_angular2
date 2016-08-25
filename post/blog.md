@@ -1,4 +1,4 @@
-# WordCloud using TypeScript, Rust, AngularJS 2, and timdream's WordCloud 
+# WordCloud using Rust, TypeScript, AngularJS 2, and timdream's WordCloud 
 
 Word clouds are a very attractive way of visually representing the relative importance of words. At a glance you can guess how important a word is relative to the others in the cloud. We will build two components:
 1. A text parser that will calculate the relative weight of each word in a given text (we'll use some classical texts as source). The text parser will also expose a JSON REST interface.
@@ -8,7 +8,7 @@ The final result is like this:
 
 ![](00.gif)
 
-You can find the complete source code in [TO CHANGE](github). We will discuss here the data management parts only.
+You can find the complete source code here: [https://github.com/MindFlavor/word_count_rust_angular2](https://github.com/MindFlavor/word_count_rust_angular2). We will discuss here the data management parts only.
 Our logic is pretty simple: count each occurrence of a word and use it to determine how big the word will appear in the cloud.
 
 ## AngularJs 2 App
@@ -419,7 +419,7 @@ fn process_file(noise_words: Arc<Vec<String>>,
 
 Now all we have to do is to expose this method through a REST interface. For this I've used [Iron framework](https://github.com/iron/iron). I will not show the code here as it's very simple.  
 
-This example of parallel map => parallel reduce => serial reduce is surprisingly fast. I'm sure that better performance can be achieved further optimizing the code but that's beside the point for this example.
+This example of parallel map => parallel reduce => serial reduce is surprisingly fast. I'm sure that better performance can be achieved further optimizing the code but that's beside the point for this example. 
 
 ---
 
