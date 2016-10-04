@@ -1,6 +1,3 @@
-#![feature(plugin)]
-#![plugin(clippy)]
-
 #![feature(question_mark)]
 
 extern crate iron;
